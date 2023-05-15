@@ -2,8 +2,8 @@ const TelegramBot = require('node-telegram-bot-api');
 const express = require('express');
 const cors = require('cors');
 
-const token = '6044054585:AAFut3IMQkLTnecgGHhi_n_L161BrycKOEM';
-const webAppUtl = 'https://serene-sherbet-aa7969.netlify.app'
+const token = '';
+const webAppUtl = '
 const bot = new TelegramBot(token, {polling: true});
 const app = express();
 app.use(express.json())
